@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# wsl 终端执行以下命令即可
+cd ../../../video || exit
+ffmpeg.exe -f concat -i file_list.txt -c copy output.mp4
